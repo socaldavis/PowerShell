@@ -1,4 +1,6 @@
-﻿function Get-Stuff {
+﻿# Test bitch
+
+function Get-Stuff {
     [CmdletBinding()]
     param (
         [Parameter(Position=0,Mandatory=$True,ValueFromPipeline=$True,ValueFromPipelineByPropertyName=$True)]
